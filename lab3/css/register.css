@@ -1,0 +1,86 @@
+body {
+    background: #f6f6f6;
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
+    font-size: 15px;
+}
+
+header,
+h1,
+section {
+    display: block;
+    margin: auto;
+}
+
+header,
+form {
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
+    border-radius: 2px
+}
+
+nav {
+    display: flex;
+    margin: auto;
+    width: 1000px;
+    align-items: center;
+}
+
+nav>* {
+    margin-right: 34px;
+}
+
+nav>a {
+    color: #8590a6;
+    text-decoration: none;
+}
+
+nav>a:hover {
+    color: #1a1a1a;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 42px auto 12px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+    padding: 10px 40px;
+}
+
+form>* {
+    width: 100%;
+}
+
+form>label {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: small;
+}
+
+form>input,
+form>select {
+    height: 40px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    border: solid 1px rgb(209, 213, 218);
+    box-shadow: inset 0 1px 2px rgba(27, 31, 35, .075);
+}
+
+form>textarea {
+    height: 260px;
+    resize: none;
+    background-color: #fff;
+}
+
+form>input[type=submit] {
+    font-size: large;
+    font-weight: bold;
+    height: 60px;
+    margin: 30px auto;
+}
