@@ -1,0 +1,32 @@
+.navbar-brand {
+    padding: 6px 6px;
+}
+
+footer {
+    background-color: #333333;
+}
+
+.row {
+    margin: 30px auto 0;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+div.photo-box {
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%;
+}
+
+div.photo-box>img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+}
